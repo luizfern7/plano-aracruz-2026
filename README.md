@@ -1,24 +1,35 @@
-# Plano Aracruz 2026 — Android 1.1
+# Plano Aracruz 2026 — Android 1.2
 
 [**Baixar o APK atualizado**](https://raw.githubusercontent.com/luizfern7/plano-aracruz-2026/main/Plano-Aracruz-2026.apk)
 
-Requer Android 8.0 ou superior. Instale sobre a versão anterior para manter os dados; o pacote e a assinatura são os mesmos. Exporte um backup antes da atualização.
+Requer Android 8.0 ou superior. Instale sobre a versão anterior para manter seu progresso; o pacote e a assinatura são os mesmos. Abra o app após a atualização para sincronizar o widget.
 
-## Novidades
+## Novidades da versão 1.2
 
-- Interface adaptada ao celular: sem rolagem lateral da página, controles maiores, questões perto do resumo e tópicos antes dos painéis auxiliares.
-- Widget nativo **Semana de estudos** na tela inicial, com tópicos concluídos, percentual e questões resolvidas em relação à meta semanal.
-- O widget mostra a semana atual do cronograma de 17/11 a 19/12/2026, independentemente da semana consultada no app. Antes/depois desse intervalo, mostra respectivamente a primeira/última semana.
-- O widget é sincronizado ao abrir o app e alterar marcações, questões ou metas. O Android também solicita atualizações periódicas; a virada da semana pode depender do agendamento do sistema.
+- Rotina semanal de estudos removida.
+- Botão e convite para adicionar widget removidos de dentro do aplicativo.
+- As cinco semanas aparecem em uma grade que se adapta à largura da tela e ao tamanho da fonte. As datas completas ficam dentro dos botões, inclusive a semana 3 (29/11 a 05/12).
+- Semana selecionada destacada, filtros com rótulos visíveis, campos em linhas separadas no celular e botões com área de toque maior.
+- Contador de questões com botões identificados para leitores de tela e redução desabilitada quando está em zero.
 
-## Adicionar o widget
+## Adicionar o widget pelo Android
 
-1. Instale a atualização e abra o aplicativo uma vez.
-2. Toque em **Adicionar widget** e confirme no Android.
-3. Se o launcher não oferecer essa opção, mantenha pressionado um espaço vazio na tela inicial, abra **Widgets** e procure **Plano Aracruz 2026 / Semana de estudos**.
+1. Abra o aplicativo uma vez.
+2. Na tela inicial do celular, mantenha pressionado um espaço vazio e escolha **Widgets**.
+3. Procure **Plano Aracruz 2026 / Semana de estudos** e arraste o widget para a tela inicial.
 
-O widget pode ser redimensionado. Toque nele para abrir o plano. Os dados ficam no dispositivo; use exportar/importar backup para transferir marcações da versão HTML ou de outro celular.
+O widget mostra os tópicos concluídos e a meta de questões da semana atual do cronograma. Ele é atualizado com as alterações feitas no app. O Android também solicita atualizações periódicas; a virada da semana pode depender do agendamento do sistema.
+
+As semanas seguem o cronograma de 17/11 a 19/12/2026. Antes/depois desse período, o widget mostra respectivamente a primeira/última semana, independentemente da semana consultada no aplicativo.
+
+## Seus dados
+
+O progresso continua salvo no dispositivo, com questões e metas independentes por semana. Use exportar/importar backup para transferir seus dados. A atualização preserva as chaves de armazenamento utilizadas nas versões anteriores.
 
 ## Verificação
 
-Layout e interações testados em navegador nas larguras 320, 360, 390, 412 e 760 pixels, incluindo persistência, semanas independentes, metas, importação/exportação de backup e sincronização enviada ao componente nativo. APK compilado, recursos do widget e assinatura verificados. O widget ainda não foi testado em aparelho Android real.
+- Testes em navegador: 320, 360, 390, 412 e 760 pixels, com fontes em 100%, 150% e 200%.
+- Datas e títulos contidos nos botões de todas as semanas, sem rolagem lateral da página.
+- Alternância das cinco semanas, contagem de tópicos, questões, metas, persistência e envio dos dados ao componente nativo do widget.
+- Importação/exportação de backup e limpeza de progresso.
+- APK compilado, assinatura e recursos do widget verificados. Widget ainda não testado em aparelho Android real.
