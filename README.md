@@ -1,10 +1,17 @@
-# Plano Aracruz 2026 — Android 1.2
+# Plano Aracruz 2026 — Android 1.3
 
 [**Baixar o APK atualizado**](https://raw.githubusercontent.com/luizfern7/plano-aracruz-2026/main/Plano-Aracruz-2026.apk)
 
 Requer Android 8.0 ou superior. Instale sobre a versão anterior para manter seu progresso; o pacote e a assinatura são os mesmos. Abra o app após a atualização para sincronizar o widget.
 
-## Novidades da versão 1.2
+## Novidades da versão 1.3
+
+- Contagem de dias até a prova de **20/12/2026** no topo do widget, junto do progresso semanal e da meta de questões.
+- Texto adaptado para plural, singular e dia da prova: “Prova em 32 dias”, “Prova em 1 dia” e “Prova hoje!”. Após a data, mostra “Prova encerrada”.
+- Cálculo pela data local do celular, para evitar diferença de um dia perto da meia-noite ou em mudanças de fuso.
+- Contagem disponível mesmo antes de sincronizar o progresso. A atualização acompanha os eventos de data/hora/fuso e o agendamento periódico do Android.
+
+## Melhorias mantidas da versão 1.2
 
 - Rotina semanal de estudos removida.
 - Botão e convite para adicionar widget removidos de dentro do aplicativo.
@@ -18,7 +25,7 @@ Requer Android 8.0 ou superior. Instale sobre a versão anterior para manter seu
 2. Na tela inicial do celular, mantenha pressionado um espaço vazio e escolha **Widgets**.
 3. Procure **Plano Aracruz 2026 / Semana de estudos** e arraste o widget para a tela inicial.
 
-O widget mostra os tópicos concluídos e a meta de questões da semana atual do cronograma. Ele é atualizado com as alterações feitas no app. O Android também solicita atualizações periódicas; a virada da semana pode depender do agendamento do sistema.
+O widget mostra os dias até a prova, os tópicos concluídos e a meta de questões da semana atual do cronograma. Ele é atualizado com as alterações feitas no app. O Android também solicita atualizações periódicas; a virada da semana pode depender do agendamento do sistema.
 
 As semanas seguem o cronograma de 17/11 a 19/12/2026. Antes/depois desse período, o widget mostra respectivamente a primeira/última semana, independentemente da semana consultada no aplicativo.
 
@@ -27,6 +34,10 @@ As semanas seguem o cronograma de 17/11 a 19/12/2026. Antes/depois desse períod
 O progresso continua salvo no dispositivo, com questões e metas independentes por semana. Use exportar/importar backup para transferir seus dados. A atualização preserva as chaves de armazenamento utilizadas nas versões anteriores.
 
 ## Verificação
+
+- Contagem de datas testada em Java: plural, singular, dia da prova, datas posteriores e fusos horários diferentes.
+- Assinatura e recursos do novo APK verificados. Os testes de interface abaixo foram realizados na versão 1.2; a interface interna foi preservada na versão 1.3.
+
 
 - Testes em navegador: 320, 360, 390, 412 e 760 pixels, com fontes em 100%, 150% e 200%.
 - Datas e títulos contidos nos botões de todas as semanas, sem rolagem lateral da página.
